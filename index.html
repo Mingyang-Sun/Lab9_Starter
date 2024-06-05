@@ -167,15 +167,15 @@
     });
 
     document.getElementById('console-group-start').addEventListener('click', () => {
-      console.group("Console Group");
+      console.group("Console Group Start");
     });
 
     document.getElementById('console-group-end').addEventListener('click', () => {
-      console.groupEnd();
+      console.groupEnd("Console Group End");
     });
 
     document.getElementById('console-table').addEventListener('click', () => {
-      console.table([{ name: 'Alice', age: 25 }, { name: 'Bob', age: 30 }]);
+      console.table([{ name: 'Mingyang', age: 2 }, { name: 'Sun', age: 1 }]);
     });
 
     document.getElementById('start-timer').addEventListener('click', () => {
@@ -183,7 +183,7 @@
     });
 
     document.getElementById('end-timer').addEventListener('click', () => {
-      console.timeEnd('Timer');
+      console.timeEnd('Timer End');
     });
 
     document.getElementById('console-trace').addEventListener('click', () => {
